@@ -1,0 +1,148 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.logo__name{
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.logo{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    max-width: 198px;
+}
+.company__name{
+    align-items: center;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.btn-container {
+    margin-left: 27px;
+    margin-top: 45px;
+}
+
+.btn {
+    width: 188px;
+    padding: 10px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    text-align: center;
+    font: normal normal normal 16px Roboto;
+}
+
+.active {
+    border-bottom: 3px solid #E70B89;
+}
+
+.form__action {
+    max-width: 300px;
+    margin: auto;
+}
+.form input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align:center;
+    border: 1px solid #ff9696;
+    border-radius: 26px;
+    font-style: italic;
+    color: rgb(26, 255, 0);
+}
+::placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(72, 76, 72);
+}
+.login__button {
+    background-color: #ff34a7;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.login__button:hover{
+    border: 2px solid rgb(8, 7, 7);
+    background-color: transparent;
+}
+.forgot__password{
+    text-align: right;
+    margin-top: 10px;
+    color: #ff33a7;
+}
+
+.login__with {
+    color: #5f5f5f;
+    font-style: oblique;
+    font-size: 12px;
+    text-align: center;
+}
+
+.login__options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+    align-items: center;
+}
+
+.login__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+    gap: 15px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.google{
+    width: 50px;
+    height: 50px;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+    color:blue;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 170, 255);
+}
+.last__text{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-style: oblique;
+    color: #1A1A1A;
+    margin-top: 23px;
+}
+span{
+    color: #E70B89;
+}
+.underline{
+    text-decoration: underline;
+}
+
+
+
+
+
